@@ -26,3 +26,15 @@
         opacity: 0.5;
     }
 }
+
+@media (min-width: $breakDesktop) {
+    .search {
+        max-width: unset;
+        width: 50%;
+        justify-content: flex-start;
+
+        &Input {
+            width: 70%;
+        }
+    }
+}
