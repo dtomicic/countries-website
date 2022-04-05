@@ -12,5 +12,23 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        gap: toRem(20);
+    }
+
+    &Cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: toRem(20);
+        margin-top: toRem(40);
+    }
+}
+
+@media (min-width: $breakDesktop) {
+    .bodyElementsSearch {
+        flex-direction: row;
+        padding: 0 toRem(100);
     }
 }

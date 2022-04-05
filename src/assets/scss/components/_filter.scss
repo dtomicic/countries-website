@@ -1,0 +1,29 @@
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    max-width: toRem(337.5);
+
+    &Input {
+        width: 60%;
+        height: toRem(50);
+        padding: 0 toRem(20);
+        font-family: $mainFont;
+        font-weight: 600;
+        border-radius: toRem(5);
+        border: 0px;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (min-width: $breakDesktop) {
+    .filter {
+        max-width: unset;
+        width: 50%;
+        justify-content: flex-end;
+
+        &Input {
+            width: 30%;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: toRem(5);
+    width: 70%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+
+    &__picture {
+        width: 100%;
+
+        &Item {
+            width: 100%;
+            border-top-left-radius: toRem(5);
+            border-top-right-radius: toRem(5);
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: toRem(20) 0 toRem(30) toRem(30);
+        font-family: $mainFont;
+
+        &Header {
+            font-size: toRem(22);
+            margin-bottom: toRem(15);
+        }
+
+        &SubHeader {
+            font-weight: 300;
+            font-size: toRem(16);
+            margin-bottom: toRem(10);
+        }
+    }
+}
