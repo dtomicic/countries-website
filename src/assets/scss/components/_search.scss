@@ -1,0 +1,28 @@
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: toRem(375);
+}
+
+.searchInput {
+    width: 90%;
+    height: toRem(50);
+    padding: toRem(20);
+    border: none;
+    font-family: $mainFont;
+    color: $darkGray;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: toRem(5);
+    font-size: toRem(13);
+    font-weight: 300;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: $darkGray;
+        opacity: 0.5;
+    }
+}
