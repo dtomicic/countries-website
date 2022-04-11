@@ -4,7 +4,7 @@
     align-items: center;
     background-color: $vlGray;
     min-height: 100vh;
-    padding-top: toRem(30);
+    padding-top: toRem(120);
     box-shadow: inset 0 0 10px 0px rgba(0, 0, 0, 0.2);
 
     &Search {
@@ -21,8 +21,9 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        gap: toRem(20);
+        gap: toRem(35);
         margin-top: toRem(40);
+        margin-bottom: toRem(30);
     }
 }
 
@@ -30,5 +31,10 @@
     .bodyElementsSearch {
         flex-direction: row;
         padding: 0 toRem(100);
+    }
+
+    .bodyElementsCards {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }

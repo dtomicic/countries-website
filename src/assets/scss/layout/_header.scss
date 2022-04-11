@@ -6,6 +6,9 @@
     font-family: $mainFont;
     background-color: $white;
     color: $vdBlueLight;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
 
     &__text {
         font-size: toRem(16);
