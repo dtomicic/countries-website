@@ -9,7 +9,7 @@
 ## Table of contents
 - [Project task](#project-task)
 - [Project overview](#project-overview)
-- [Time spen on the project](#time-spent-on-the-project)
+- [Time spent on the project](#time-spent-on-the-project)
 - [Built with](#built-with)
 - [Live preview](#live-preview)
 
